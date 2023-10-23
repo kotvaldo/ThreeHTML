@@ -1,6 +1,83 @@
-.navbar-nav {
+.left-items {
     font-size: large;
     font-weight: bold;
 
 }
 
+.right-items {
+    margin-left: 10px;
+}
+
+.right-items .nav-link {
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.menu-img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.img-fluid.mobile-max {
+    width: auto;
+    max-height: 400px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto
+}
+
+.body-description {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body-title {
+    font-size: 50px;
+    color: #666;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.body-title:hover {
+    color: #007bff;
+}
+
+.card-title {
+    font-family: "Arial Black", serif;
+    background-color: white;
+}
+
+.card-text {
+    font-style: italic;
+    color: #666;
+
+}
+.card-img-top {
+    height: 300px;
+    width: auto;
+    background-size: contain;
+}
+
+.card-ref {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+
+}
+.card-ref:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.card-title-better {
+    text-align: center;
+
+
+}
