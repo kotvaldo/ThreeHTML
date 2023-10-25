@@ -1,7 +1,7 @@
 .left-items {
     font-size: large;
     font-weight: bold;
-
+    text-transform: uppercase;
 }
 
 .right-items {
@@ -9,20 +9,28 @@
 }
 
 .right-items .nav-link {
-    color: #fff;
+    color: #000;
     font-style: italic;
     font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #f7f7f7;
+    padding: 10px;
+    border: 2px solid #999;
+    border-radius: 10px;
 }
 
 .menu-img {
-    width: 50px;
-    height: 50px;
+    width: auto;
+    height: 80px;
+
 }
 
 
-.img-fluid.mobile-max {
+.img-fluid {
     width: auto;
-    max-height: 400px;
+    height: 250px;
     border: 2px solid #ccc;
     border-radius: 10px;
     display: block;
@@ -38,10 +46,17 @@
 }
 
 .body-title {
-    font-size: 50px;
-    color: #666;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.71);
     font-weight: bold;
     margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #f7f7f7;
+    padding: 10px;
+    border: 2px solid #999;
+    border-radius: 10px;
 }
 
 .body-title:hover {
@@ -78,4 +93,7 @@
 
 .card-title-better {
     text-align: center;
+}
+.navbar.navbar-expand-lg {
+    background-color: #547616;
 }
