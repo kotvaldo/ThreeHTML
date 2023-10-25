@@ -1,0 +1,96 @@
+body {
+    background-color: #eeeeee;
+}
+.recipe-title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Arial Black", system-ui;
+    margin-bottom: 50px;
+}
+
+.recipe-title span{
+    font-family:"Fira Code", fantasy;
+    color: #666666;
+}
+
+hr {
+    width: 1px;
+    color: #666666;
+}
+
+.profile-photo {
+    max-height: 50px;
+    width: auto;
+    border-radius: 50%;
+    border: 5px black;
+    cursor: pointer;
+}
+
+.profile-link{
+    text-decoration: none;
+    color: #547616;
+
+}
+.profile-link:hover{
+    color: #007bff;
+    text-decoration: underline;
+
+}
+
+.be-fo {
+    font-family:"Caveat Regular", system-ui;
+    font-style: oblique;
+    color: #547616;
+}
+.title-v2 {
+    text-align: center;
+    font-family: "Caveat Regular", serif;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+}
+.recipe-img {
+    width: auto;
+    position: relative;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 10px;
+
+}
+
+.title-v2-better {
+    text-align: center;
+    font-family: "Caveat Regular", serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.recipe-suroviny h2 {
+    text-align: left;
+    font-family: "Fira Code", fantasy;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.recipe-suroviny li {
+    text-align: left;
+    font-family: "Arial", system-ui;
+    font-weight: bold;
+    text-decoration: -moz-mac-accentlightshadow;
+    color: #547616;
+}
+
+.suroviny {
+    margin-left: 40px;
+}
+
+.postup {
+    text-align: center;
+}
+.postup ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+
+}

@@ -1,7 +1,8 @@
-.left-items {
-    font-size: large;
+.left-items .nav-link{
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+    color: #cccccc;
 }
 
 .right-items {
@@ -24,7 +25,7 @@
 .menu-img {
     width: auto;
     height: 80px;
-
+    margin: 0 auto;
 }
 
 
@@ -46,7 +47,7 @@
 }
 
 .body-title {
-    font-size: 100px;
+    font-size: 80px;
     color: rgba(0, 0, 0, 0.71);
     font-weight: bold;
     margin-top: 20px;
@@ -61,6 +62,11 @@
 
 .body-title:hover {
     color: #007bff;
+}
+
+.card {
+    margin-top: 20px;
+
 }
 
 .card-title {
@@ -96,4 +102,44 @@
 }
 .navbar.navbar-expand-lg {
     background-color: #547616;
+}
+
+header .hesita-top-bar {
+    background-color: #333333;
+
+}
+
+.sel-link {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.sel-link:hover {
+    text-decoration: underline;
+
+}
+
+.pull-right {
+    position: relative;
+    right: 0;
+    left: 0;
+}
+
+.language-sel-img {
+    max-height: 10px;
+    width: 20px;
+}
+
+.f-link{
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.f-link:hover{
+    color: #007bff;
 }
