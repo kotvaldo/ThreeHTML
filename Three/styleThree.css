@@ -14,8 +14,7 @@ body {
 }
 
 hr {
-    width: 1px;
-    color: #666666;
+    border: 2px solid #363636;
 }
 
 .profile-photo {
@@ -87,10 +86,25 @@ hr {
 
 .postup {
     text-align: center;
+    font-family: Arial, system-ui;
+    font-size: 15px;
+
 }
 .postup ul {
     list-style: none;
     padding: 0;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
 
+.postup ul li p {
+    font-family: Arial, system-ui;
+    font-style: oblique;
+}
+
+.postup ul li h2 {
+    font-family: "Caveat Regular", serif;;
+    font-style: initial;
+    font-size: xxx-large;
+    text-decoration: underline;
 }
